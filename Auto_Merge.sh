@@ -22,7 +22,7 @@ git checkout Dev
 
 git merge $CURRENT_BRANCH
 
-git push origin Integration
+git push origin Dev:Integration
 
 
 git checkout $CURRENT_BRANCH
