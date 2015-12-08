@@ -15,13 +15,15 @@ git checkout master
 
 git merge $CURRENT_BRANCH
 
-git push
+git push origin master
 
-git checkout Integration
+
+git checkout Dev
 
 git merge $CURRENT_BRANCH
 
-git push
+git push origin Integration
+
 
 git checkout $CURRENT_BRANCH
 
