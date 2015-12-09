@@ -22,7 +22,7 @@ git push origin master
 
 git checkout Integration
 
-git pull origin/Integration
+git pull origin Integration
 
 git merge $CURRENT_BRANCH
 
