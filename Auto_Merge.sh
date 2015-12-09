@@ -13,16 +13,20 @@ Hotfix)
 
 git checkout master
 
+git pull origin master
+
 git merge $CURRENT_BRANCH
 
 git push origin master
 
 
-git checkout Dev
+git checkout Integration
+
+git pull origin/Integration
 
 git merge $CURRENT_BRANCH
 
-git push origin Dev:Integration
+git push origin Integration:Integration
 
 
 git checkout $CURRENT_BRANCH
