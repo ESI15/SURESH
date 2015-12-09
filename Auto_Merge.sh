@@ -1,6 +1,7 @@
 #!/bin/sh
 # Automatically merge the last commit through the following branches:
-#Hotfix-> Integration -> master
+#Hotfix->master
+#hotfix->Integration 
 
 CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
 
