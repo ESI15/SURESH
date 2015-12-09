@@ -18,7 +18,7 @@ git pull origin master
 
 git merge $CURRENT_BRANCH
 
-git push https://ESI15:admin123@github.com/ESI15/SURESH.git
+git push 
 
 
 git checkout Integration
@@ -27,7 +27,7 @@ git pull origin Integration
 
 git merge $CURRENT_BRANCH
 
-git push https://ESI15:admin123@github.com/ESI15/SURESH.git
+git push 
 
 
 git checkout $CURRENT_BRANCH
